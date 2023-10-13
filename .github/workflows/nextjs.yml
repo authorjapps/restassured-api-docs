@@ -52,6 +52,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
+          check-latest: true
           #cache: pnpm
           #cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
