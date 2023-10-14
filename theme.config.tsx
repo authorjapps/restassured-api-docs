@@ -9,7 +9,8 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.com",
   },
-  docsRepositoryBase: "https://github.com/SUPAIDEAS/restassured-api-docs",
+  docsRepositoryBase:
+    "https://github.com/SUPAIDEAS/restassured-api-docs/blob/main",
   footer: {
     text: "Nextra Docs Template",
   },
